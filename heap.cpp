@@ -5,6 +5,7 @@
 #include "heap.h"
 #include <iostream>
 using std::cout;
+using namespace std;
 
 // Builds a heap from the range [start, end) using the heapify algorithm
 // Should run in O(n) time
