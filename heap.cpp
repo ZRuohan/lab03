@@ -37,7 +37,7 @@ Heap::Heap(std::vector<int>::iterator start, std::vector<int>::iterator end){
               swap(vdata[j], vdata[m]);
               j = m;
   }}}
-}
+
 
 // Pushes a value into the heap, then ensures
 // the heap is correctly arranged
